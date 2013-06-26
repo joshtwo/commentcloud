@@ -1,0 +1,110 @@
+#commentcloud-modal {
+    width: 35em;
+}
+
+#commentcloud-modal p {
+    padding: 0.3em;
+}
+
+#commentcloud-emotes {
+    position: relative;
+} 
+
+#commentcloud-emotes img {
+    position: absolute;
+    display: none;
+    z-index: 9001;
+    background-color: #dde6da;
+    border: 1px solid #aab5ab;
+}
+
+#commentcloud-menu {
+    margin: 5px;
+    overflow-y: scroll;
+    border: 1px solid #aab5ab;
+    height: 18em;
+}
+
+#commentcloud-menu ul {
+    list-style-image: none;
+    list-style-position: outside;
+    padding: 0;
+    margin: 0;
+}
+
+#commentcloud-menu ul li {
+    display: block;
+    padding: 0;
+    list-style-type: none;
+}
+
+#commentcloud-menu ul li:hover {
+    background-color: #e7eee7 !important;
+}
+
+#commentcloud-menu ul li.even {
+    background-color: #dae4d9;
+}
+
+#commentcloud-menu ul li.odd {
+    background-color: #cedccd;
+}
+
+#commentcloud-menu * div.ar {
+    background: none;
+    padding: 0;
+}
+
+#commentcloud-categories {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+#commentcloud-categories a {
+    padding: 0.2em;
+}
+
+#commentcloud-categories a.selected {
+    font-weight: bold;
+}
+
+.vote-buttons a, .vote-buttons span {
+    margin: 0.2em;
+}
+
+.vote-buttons span {
+    visibility: hidden;
+}
+
+.vote-buttons span.votecount {
+    margin-right: 3em;
+    visibility: visible;
+}
+
+.vote-buttons .voted {
+    color: #bcbcbc;
+    visibility: visible;
+}
+
+.sub-modal {
+    width: 30em;
+}
+
+.sub-modal p {
+    text-align: center;
+    padding: 1.5em;
+}
+
+#commentcloud-search input {
+    width: 95%;
+    margin: auto;
+    display: block
+}
+
+#commentcloud-search input.empty {
+    color: #a0a0a0;
+}
+
+#commentcloud-category-search:first-child {
+    font-style: italic;
+}
